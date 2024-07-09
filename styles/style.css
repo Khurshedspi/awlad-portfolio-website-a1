@@ -105,7 +105,7 @@ body {
 /* development-container sections styles here */
 .development-container {
     width: 1140px;
-    height: 1295px;
+    height: 1395px;
     margin: 74px auto 88px auto;
     border-radius: 16px;
     background: rgba(13, 19, 34, 0.07);
@@ -141,7 +141,7 @@ body {
     height: 336px;
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(245, 242, 242), rgba(255, 255, 255, 0.252) 100%);
-    margin: auto;
+    margin: 48px auto auto auto;
     padding: 48px;
 
 }
@@ -186,6 +186,10 @@ body {
     height: 48px;
     box-sizing: border-box;
     border: 1px solid rgb(13, 19, 33);
+}
+
+.dev-btn a {
+    text-decoration: none;
     opacity: 0.7;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -211,15 +215,24 @@ body {
     height: 775px;
     margin: auto;
 }
-.inspired-content{
+
+.inspired-content {
     width: 1140px;
     height: 775px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
-.inspired-title{
+
+.inspired-content iframe {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.inspired-title {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 30px;
@@ -228,7 +241,8 @@ body {
     text-align: center;
     margin-bottom: 24px;
 }
-.inspired-description{
+
+.inspired-description {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -238,4 +252,202 @@ body {
     text-align: center;
     opacity: 0.7;
 
+}
+
+/* my inspiration section styles ends here  */
+
+
+/* my current target section styles here */
+
+.current-target {
+
+    width: 1140px;
+    height: 460px;
+    margin: 150px auto 110px auto;
+}
+
+.current-target-heading {
+    width: 852px;
+    height: 113px;
+    margin: auto;
+}
+
+.current-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.current-target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 48px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+/* topics starts here */
+
+.current-target-topics {
+    display: flex;
+    gap: 24px;
+}
+
+.current-target-topic {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    background: rgba(255, 75, 30, 0.119);
+    margin-top: 48px;
+    padding: 45px;
+}
+
+.second-current-target-topic {
+    width: 364px;
+    height: 299px;
+    border-radius: 16px;
+    margin-top: 48px;
+    padding: 45px;
+    background: rgba(0, 77, 232, 0.149);
+}
+
+.current-target-topic-content {
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.current-target-topic-content img {
+    width: 39.68px;
+    height: 56px;
+}
+
+.current-target-topic-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.current-target-topic-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    opacity: 0.7;
+
+}
+
+.current-target-topic-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+/* Next target styles here */
+.next-target {
+    width: 1140px;
+    height: 460px;
+    margin: 150px auto 110px auto;
+}
+
+.next-target-heading {
+    width: 852px;
+    height: 113px;
+    margin: auto;
+}
+
+.next-target-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.next-target-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 48px;
+    text-align: center;
+    opacity: 0.7;
+
+}
+
+.next-target-topics {
+    width: 1140px;
+    height: 175px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-top: 48px;
+}
+
+.next-target-topic {
+    width: 1060px;
+    height: 139px;
+    display: flex;
+    padding: 40px;
+}
+
+.next-target-topic img {
+    width: 94.78px;
+    height: 84.41px;
+}
+
+.next-target-content {
+    margin-left: 24px;
+}
+
+.next-target-content h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 8px;
+}
+
+.next-target-content p {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    opacity: 0.7;
+    margin-bottom: 18px;
+
+}
+
+.next-target-content a {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14px;
+    text-decoration-line: underline;
 }
