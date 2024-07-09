@@ -105,7 +105,7 @@ body {
 /* development-container sections styles here */
 .development-container {
     width: 1140px;
-    height: 1395px;
+    height: 1295px;
     margin: 74px auto 88px auto;
     border-radius: 16px;
     background: rgba(13, 19, 34, 0.07);
@@ -200,5 +200,4 @@ body {
     width: 259.56px;
     height: 217.01px;
 }
-
-/* why development second part styles here */
+/* why development styles  part ends here  */
