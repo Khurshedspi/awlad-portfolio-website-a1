@@ -200,4 +200,42 @@ body {
     width: 259.56px;
     height: 217.01px;
 }
+
 /* why development styles  part ends here  */
+
+
+/* my inspiration section styles starts here  */
+
+.inspired-container {
+    width: 1140px;
+    height: 775px;
+    margin: auto;
+}
+.inspired-content{
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.inspired-title{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.inspired-description{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 80px;
+    text-align: center;
+    opacity: 0.7;
+
+}
