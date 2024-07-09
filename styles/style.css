@@ -1,0 +1,204 @@
+/* google fonts here */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* navigation styles start here  */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 47px;
+}
+
+.navigation h2 {
+    width: 114px;
+    height: 34px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0%;
+    margin-left: 150px;
+}
+
+.navigation button {
+    width: 228px;
+    height: 58px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    margin-right: 150px;
+}
+
+.hero {
+    width: 1440px;
+    height: 652px;
+    background-image: url("../assets/Hero-bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.hero-img {
+    width: 173.03px;
+    height: 228.9px;
+    margin-bottom: 32px;
+}
+
+.hero-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.hero-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.hero-btn {
+    width: 208px;
+    height: 66px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    margin-bottom: 44px;
+}
+
+.hero-btn a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    text-align: center;
+}
+
+/* development-container sections styles here */
+.development-container {
+    width: 1140px;
+    height: 1395px;
+    margin: 74px auto 88px auto;
+    border-radius: 16px;
+    background: rgba(13, 19, 34, 0.07);
+    padding-top: 16px;
+}
+
+.development-title {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-top: 80px;
+    text-align: center;
+
+}
+
+.development-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 24px;
+}
+
+/* main development contents styles here */
+
+.dev-container {
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(245, 242, 242), rgba(255, 255, 255, 0.252) 100%);
+    margin: auto;
+    padding: 48px;
+
+}
+
+.development-content {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 99px;
+
+}
+
+.dev-contentLeft {
+    width: 477px;
+    height: 220px;
+}
+
+.dev-title {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.dev-description {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.dev-btn {
+    width: 150px;
+    height: 48px;
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.img-topLeft {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+/* why development second part styles here */
