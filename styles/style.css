@@ -109,7 +109,7 @@ body {
     height: 1395px;
     margin: 74px auto 88px auto;
     border-radius: 16px;
-    background: rgba(13, 19, 34, 0.07);
+    background: rgba(13, 19, 33, 0.02);
     padding-top: 16px;
 }
 
@@ -149,7 +149,7 @@ body {
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
 }
 .dev2{
-    background: linear-gradient(90.00deg, rgba(198, 179, 179, 0.451),rgba(255, 255, 255, 0.999) 100%);
+    background: linear-gradient(90.00deg, rgba(198, 179, 179, 0.014),rgb(255, 255, 255) 100%);
 }
 .dev3{background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);}
 
