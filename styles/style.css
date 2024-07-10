@@ -83,6 +83,8 @@ body {
     line-height: 22px;
     text-align: center;
     margin-bottom: 32px;
+    opacity: 0.7;
+
 }
 
 .hero-btn {
